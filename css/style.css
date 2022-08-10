@@ -1,0 +1,165 @@
+* {
+	/* outline: 2px solid red; */
+}
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* font-family: "Rubik Moonrocks", cursive;
+	font-family: "Ruslan Display", cursive; */
+	font-family: "Comfortaa", cursive;
+	color: white;
+	box-sizing: border-box;
+}
+:root {
+	--outline: 4px solid rgba(219, 35, 188, 0);
+}
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+li {
+	color: white;
+}
+a {
+	color: white;
+}
+
+/*! Header */
+
+.header {
+	/* height: 10vh; */
+	background: rgb(177, 16, 16);
+}
+.header__above {
+	background: rgb(255, 255, 255);
+	outline: var(--outline);
+}
+.header__above-container {
+	outline: var(--outline);
+}
+.header__above-nav {
+	outline: var(--outline);
+}
+.header__above-list {
+	outline: var(--outline);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+}
+.header__above-item {
+	outline: var(--outline);
+	padding: 5px 0px;
+}
+.header__above-item:not(:last-child) {
+	margin-right: 20px;
+}
+.header__above-item-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.above__img {
+	width: 5%;
+	height: 5%;
+	margin-right: 15px;
+}
+.header__above-a {
+	color: rgb(177, 16, 16);
+	/* margin: 0px 20px; */
+}
+.img__search {
+	width: 40%;
+	background: rgba(214, 211, 211, 0.815);
+	border-radius: 60px;
+	/* padding: 7px 15px; */
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: var(--outline);
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	outline: var(--outline);
+	padding: 0px 20px;
+}
+.header__logo-title {
+	/* font-family: "Rubik Moonrocks", cursive; */
+	/* font-family: "Ruslan Display", cursive; */
+	font-family: "Comfortaa", cursive;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-left: 20px;
+}
+.header__nav {
+	margin-right: 20px;
+}
+.header__list {
+	display: flex;
+	align-items: center;
+}
+.header__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+/*! Aside */
+.aside {
+	width: 20vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.aside__list {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* outline: 2px solid green; */
+}
+
+/*! Glavnaya */
+.glavnaya__photo {
+	width: 100%;
+	height: 60vh;
+	margin: 0 auto;
+	background-image: url(../img/fone.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* outline: 3px solid rgb(241, 6, 171); */
+}
+.glavnaya__photo a {
+	text-align: bottom;
+	color: aqua;
+}
+
+/*! Proizvoditely */
+.proizvoditely__title {
+	color: black;
+}
+.proizvoditely__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.proizvoditely__card {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 1px 1px 3px rgb(131, 130, 130);
+}
